@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700|Lobster);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+/* ========== Global Styles ==========*/
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+p {
+  font-family: 'Raleway 400', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+/* ========== NAV STYLES ============ */
+.navbar {
+  position: absolute;
+  top:0px;
+  z-index: 30;
+  width:100%;
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-brand {
+  margin:0;
+}
+​
+.navbar-default {
+  background-color: transparent;
+  border: none;
+  top: 0;
+}
+​
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a !important{
+  background-color: rgba(0, 0, 0, .8);
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: rgba(000,000,000,0.5) !important;
+  color:#FFF !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-weight: 300;
+}
+
+.navbar-default .navbar-nav>li>a {
+  background: rgba(000,000,000,0.5);
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  background: rgba(255,255,255,0.5);
+  color: #000;
+}
+
+/* ========== CAROUSEL ============== */
+.carousel .item {
+  max-height: 75vh !important;
+}
+
+/*.item img {
+  min-height: 100px;
+}*/
+
+.logo-cutlery {
+  max-height: 350px !important;
+  padding-bottom: 20px;
+}
+
+.carousel-background {
+  width: 1300px;
+  max-height:800px;
+}
+
+.carousel-restaurant-background {
+  width: 1300px;
+  max-height:800px;
+
+}
+
+.carousel-farm-background {
+  width: 100vw;
+  max-height:75vh;
+}
+
+.btn-default {
+  background-color: #FF3200 !important;
+  color:#FFFFFF;
+  border: none !important;
+}
+
+/*============== Our Story Div ============== */
+
+.our-story-outer {
+  margin-top: 5%;
+  margin-bottom: 12%;
+}
+
+.our-story {
+  font-family: 'Lobster' cursive;
+  color:#F8512F;
+  font-size: 4em;
+  text-shadow: 1px 1px #525252;
+  margin-bottom: 0px;
+}
+
+.story-text {
+  font-family: 'Playfair Display', serif;
+  z-index:-1;
+  color:rgba(149, 147, 147, 0.2);
+  position:absolute;
+  font-size: 10em;
+  font-weight: 800;
+}
+
+.story-para {
+  font-weight: lighter;
+  font-size: 0.8em;
+}
+
+.one-man-text {
+  margin: 0px;
+  font-family: 'Raleway:300' serif;
+  font-size: 1.3em;
+
+}
+
+/*============== Fresno Bee Parallax Styles =============*/
+
+#fresno-bee {
+  text-align: center;
+  font-family: 'Lobster' cursive;
+  color:#F8512F;
+  font-size: 3.8em;
+  text-shadow: 1px 1px #000000;
+}
+
+#fresno-bee-caption {
+  color:#e5e5e5;
+  font-size: 20px;
+  text-align:center;
+}
+
+.fresno-bee-outer {
+  background:rgba(000,000,000,0.5);
+  margin-top: 10%;
+  border-radius: 3px;
+}
+
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 55vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 100;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../img/food_review.jpg");
+}
+
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+
+/* ============= Menu Thumb Section =============*/
+
+.container-menu {
+  background: url('../img/black_linen.png') center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#menu-title {
+  font-family: 'Lobster' cursive;
+  color:#FFFFFF;
+  font-size: 4em;
+  text-align: center;
+}
+
+.nav-tabs a {
+  color:#F8512F;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.menu-navs a:hover {
+  background-color: #FFF !important;
+}
+
+.menu-tabs {
+  background-color: transparent !important;
+}
+
+.appetizer-heading {
+  color:#F8512F !important;
+}
+
+.menu-box {
+  margin-bottom: 5%;
+  padding:0px;
+}
+
+.menu-inner {
+  background-color: #FFFFFF;
+  margin:0;
+}
+
+.thumbnail {
+  border: none;
+  margin-top: 1%;
+}
+
+.appetizer-title {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.menu-captions {
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+/* ========== Footer Styles ============*/
+#contact-us-title {
+  color:#FFFFFF;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 2.6em;
+}
+
+#contact-us-caption {
+  color:#FFFFFF;
+  font-weight: lighter;
+  font-size: 0.88em;
+  margin-bottom: 5%;
+}
+
+.form-inner {
+  background-color: #f76317;
+  padding-bottom: 5%;
+}
+
+.form-group label {
+  color:#FFFFFF;
+}
+
+.footer-address p, a{
+  color:#FFF;
+  font-weight: lighter;
+}
+
+.address {
+  margin:0px;
+  display: inline-block;
+}
+
+.orange-background {
+  background-color: #F8512F;
+  padding-bottom: 50px;
+}
