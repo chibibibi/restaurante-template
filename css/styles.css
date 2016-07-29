@@ -17,6 +17,10 @@ p {
   border: 0;
 }
 
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
 
 /* ========== NAV STYLES ============ */
 .navbar {
@@ -77,20 +81,29 @@ p {
   padding-bottom: 20px;
 }
 
+.logo-cutlery-sm {
+  max-height: 50vh;
+}
+
 .carousel-background {
-  width: 1300px;
-  max-height:800px;
+  background: url('../img/wood-2.jpg');
+  background-position:center;
+  background-size:cover;
+  height:65vh !important;
 }
 
 .carousel-restaurant-background {
-  width: 1300px;
-  max-height:800px;
-
+  background: url('../img/restaurant-2.jpg');
+  background-position:center;
+  background-size:cover;
+  height:65vh !important;
 }
 
 .carousel-farm-background {
-  width: 100vw;
-  max-height:75vh;
+  background: url('../img/farm-2.jpg');
+  background-position:center;
+  background-size:cover;
+  height:65vh !important;
 }
 
 .btn-default {
@@ -203,6 +216,7 @@ section.module.parallax-1 {
   color:#F8512F;
   font-size: 1em;
   font-weight: 500;
+  margin-right:10%;
 }
 
 .menu-navs a:hover {
